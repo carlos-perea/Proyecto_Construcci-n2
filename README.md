@@ -1,4 +1,4 @@
-# 🏥 Proyecto Clínica IPS 2024
+# 🏥 Proyecto Clínica 
 
 Este repositorio corresponde al **proyecto académico de Construcción de Software 2**.  
 El objetivo es desarrollar una **aplicación de gestión de información para una clínica**, que facilite el manejo de datos de pacientes, personal médico y procesos administrativos.  
