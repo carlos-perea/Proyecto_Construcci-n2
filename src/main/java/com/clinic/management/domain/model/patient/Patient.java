@@ -1,16 +1,19 @@
 package com.clinic.management.domain.model.patient;
 
 public class Patient {
-    int id;
-    String fullName;
-    String birthDate;
-    String gender;
-    String phone;
-    String address;
-    String email;
-    String maritalStatus;
-    String occupation;
-    String emergencyNotes;
+    private int id;
+    private String fullName;
+    private String birthDate;
+    private String gender;
+    private String phone;
+    private String address;
+    private String email;
+    private String maritalStatus;
+    private String occupation;
+    private String emergencyNotes;
+
+    private EmergencyContact emergencyContact;
+    private Insurance insurance;
 
     public int getId() {
         return id;
@@ -90,5 +93,23 @@ public class Patient {
 
     public void setEmergencyNotes(String emergencyNotes) {
         this.emergencyNotes = emergencyNotes;
+    }
+
+    // Métodos para EmergencyContact
+    public EmergencyContact getEmergencyContact() {
+        return emergencyContact;
+    }
+
+    public void setEmergencyContact(EmergencyContact emergencyContact) {
+        this.emergencyContact = emergencyContact;
+    }
+
+    // Métodos para Insurance
+    public Insurance getInsurance() {
+        return insurance;
+    }
+
+    public void setInsurance(Insurance insurance) {
+        this.insurance = insurance;
     }
 }

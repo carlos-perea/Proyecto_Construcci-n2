@@ -1,4 +1,4 @@
-package com.clinic.management.domain.ports;
+package com.clinic.management.domain.ports.user;
 
 import com.clinic.management.domain.model.user.User;
 

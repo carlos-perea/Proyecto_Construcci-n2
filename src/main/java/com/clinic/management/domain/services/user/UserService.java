@@ -1,7 +1,7 @@
 package com.clinic.management.domain.services.user;
 
 import com.clinic.management.domain.model.user.User;
-import com.clinic.management.domain.ports.UserPort;
+import com.clinic.management.domain.ports.user.UserPort;
 
 public class UserService {
 
